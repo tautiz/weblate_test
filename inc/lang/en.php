@@ -1,34 +1,34 @@
-<?php
+<?php /** @noinspection ALL */
 
-$lang['menu']['uzs'] = 'Ask&nbsp;the&nbsp;driver';
-$lang['menu']['uzs_new'] = 'New&nbsp;Order';
-$lang['menu']['uzs_new_int'] = 'New&nbsp;International&nbsp;Order';
-$lang['menu']['uzs_list'] = 'View&nbsp;the&nbsp;orders';
-$lang['menu']['uzs_import'] = 'Import&nbsp;orders&nbsp;data';
-$lang['menu']['uzsn_new'] = 'New&nbsp;regular&nbsp;order';
-$lang['menu']['uzsn_list'] = 'View&nbsp;regular&nbsp;orders';
+$lang['menu']['uzs'] = 'Ask the driver';
+$lang['menu']['uzs_new'] = 'New Order';
+$lang['menu']['uzs_new_int'] = 'New International Order';
+$lang['menu']['uzs_list'] = 'View the orders';
+$lang['menu']['uzs_import'] = 'Import orders data';
+$lang['menu']['uzsn_new'] = 'New regular order';
+$lang['menu']['uzsn_list'] = 'View regular orders';
 
-$lang['menu']['siunt'] = 'Register&nbsp;shipments';
-$lang['menu']['manifest_add'] = 'New&nbsp;shipment&nbsp;list';
-$lang['menu']['manifest'] = 'View&nbsp;the&nbsp;shipment&nbsp;lists';
-$lang['menu']['import'] = 'Import&nbsp;shipment&nbsp;data';
+$lang['menu']['siunt'] = 'Register shipments';
+$lang['menu']['manifest_add'] = 'New shipment list';
+$lang['menu']['manifest'] = 'View the shipment lists';
+$lang['menu']['import'] = 'Import shipment data';
 
-$lang['menu']['tracking'] = 'Shipment&nbsp;status/P.O.D.';
+$lang['menu']['tracking'] = 'Shipment status/P.O.D.';
 $lang['menu']['report'] = 'Reports';
-$lang['menu']['siunt_report'] = 'Basic&nbsp;report';
-$lang['menu']['siunt_report_cod'] = 'COD&nbsp;report';
-$lang['menu']['siunt_report_returns'] = 'Returns&nbsp;report';
-$lang['menu']['siunt_report_con_returns'] = 'Consolidated&nbsp;returns&nbsp;report';
+$lang['menu']['siunt_report'] = 'Basic report';
+$lang['menu']['siunt_report_cod'] = 'COD report';
+$lang['menu']['siunt_report_returns'] = 'Returns report';
+$lang['menu']['siunt_report_con_returns'] = 'Consolidated returns report';
 
 $lang['menu']['client'] = 'Clients';
-$lang['menu']['kl_new'] = 'New&nbsp;client';
-$lang['menu']['kl_view'] = 'Find&nbsp;client';
-$lang['menu']['kl_import'] = 'Import&nbsp;client&nbsp;data';
-$lang['menu']['kl_manage'] = 'Manage&nbsp;client&nbsp;data';
+$lang['menu']['kl_new'] = 'New client';
+$lang['menu']['kl_view'] = 'Find client';
+$lang['menu']['kl_import'] = 'Import client data';
+$lang['menu']['kl_manage'] = 'Manage client data';
 
 $lang['menu']['help'] = 'Help';
 $lang['menu']['contact'] = 'Contacts';
-$lang['menu']['logoff'] = 'Log&nbsp;off';
+$lang['menu']['logoff'] = 'Log off';
 
 $lang['cont']['support_14_phone'] = '+370 700 55221';
 $lang['cont']['support_14_phone2'] = '+370 5 210 7717';
@@ -44,7 +44,7 @@ $lang['cont']['support_157407_kas'] = 'helpdesk.ee@venipak.com';
 $lang['cont']['support_157407_kont'] = 'helpdesk.ee@venipak.com';
 
 $lang['cont']['name'] = 'Contacts';
-$lang['cont']['text0'] = 'Help desk';//Order department';
+$lang['cont']['text0'] = 'Help desk';
 $lang['cont']['email'] = 'E-mail';
 $lang['cont']['text1'] = 'If you have an inquiry about a contract or an invoice, please contact your account manager:';
 $lang['cont']['text1_end'] = 'Customer service representative is dedicated to take care of your all long term needs';
@@ -217,7 +217,7 @@ $lang['siunt']['call'] = 'Call before the delivery';
 $lang['siunt']['return_doc'] = 'Return the attendant document to address';
 $lang['siunt']['pak'] = 'Packages';
 $lang['siunt']['pak_type1'] = 'Version 1: total amount of packages as well as their weight and volume for the entire shipment:';
-$lang['siunt']['pak_type2'] = '&nbsp;&nbsp;OR<br><br>&nbsp;Version 2: weight, volume and document No. separately for each package:';
+$lang['siunt']['pak_type2'] = '  OR<br><br> Version 2: weight, volume and document No. separately for each package:';
 $lang['siunt']['4rp'] = '4 hands service';
 $lang['siunt']['4rp_info'] = 'Unloading and carrying shipments to the door by two people, which has packages from 30 kg to %d kg, for additional fee.<br><br>Service provided in Vilnius, Kaunas, Klaipėda, Šiauliai, Panevėžys, Alytus, Utena, Marijampolė, Telšiai, Tauragė, Riga, Daugavpils, Valmiera, Liepoja, Ventspils, Gulbene, Jekabpils, Rezekne, Tallinn, Tartu, Parnu, Johnvi.<br><br>Packages from %d kg to %d kg will be double charged.<br><br>For packages weighting more than %d kg service is available only under separate agreement.';
 $lang['siunt']['siuntejo_adresu'] = "Sender's address";
@@ -453,7 +453,7 @@ $lang['kl']['name_admin'] = 'Clients data management';
 $lang['kl']['name_export'] = 'Export';
 $lang['kl']['export_info'] = 'Export Clients data to <b>MS Excel</b> file.';
 $lang['kl']['name_deletion'] = 'Deletion';
-$lang['kl']['deletion_info'] = 'Delete all saved clients data from Venipak system. Clients data deletion will not affect registered shipments.<br><br>To delete clients data you have to enter your Venipak password.';
+$lang['kl']['deletion_info'] = 'Deletei all saved clients data from Venipak system. Clients data deletion will not affect registered shipments.<br><br>To delete clients data you have to enter your Venipak password.';
 $lang['kl']['pass_missing'] = 'You did not entered a password';
 $lang['kl']['pass_wrong'] = 'Wrong password';
 $lang['kl']['done'] = 'Data deleted';
@@ -498,7 +498,7 @@ $lang['pickup']['search_title'] = 'Search by city name';
 $lang['pickup']['search_placeholder'] = 'Enter city';
 $lang['pickup']['search_submit_title'] = 'Search';
 $lang['pickup']['nothing_found'] = 'Nothing found';
-$lang['pickup']['warning'] = 'Warning! Pickup points accept only packages under these dimensions: length %fm, height %fm, width %fm, weight %d kg';;
+$lang['pickup']['warning'] = 'Warning! Pickup points accept only packages under these dimensions: length %fm, height %fm, width %fm, weight %d kg';
 $lang['pickup']['error'] = 'The weight you entered is over the limit!';
 $lang['pickup']['country_lt'] = 'Lithuania';
 $lang['pickup']['country_lv'] = 'Latvia';
@@ -822,7 +822,7 @@ $lang['answer_no'] = 'No';
 $lang['news_text'] = 'New';
 
 $lang['claim']['submit_a_claim'] = 'Submit a claim';
-$lang['claim']['title'] = 'New claim';;
+$lang['claim']['title'] = 'New claim';
 $lang['claim']['title_review'] = 'Claim review';
 $lang['claim']['title_clarify'] = 'Claim clarify';
 $lang['claim']['your_data'] = 'Your data';
@@ -1007,10 +1007,10 @@ $lang['siunt']['pallet_type'][1] = '1.2m/0.8m';
 $lang['siunt']['pallet_type'][2] = '1.2m/0.8m';
 $lang['siunt']['pallet_type'][3] = '0.8m/0.6m';
 $lang['siunt']['pallet_type'][4] = 'other';
-$lang['siunt']['pallet_type'][5] = 'up&nbsp;to&nbsp;1.2m/0.8m';
+$lang['siunt']['pallet_type'][5] = 'up to 1.2m/0.8m';
 $lang['siunt']['pallet_type'][6] = '1.2m/1m';
 $lang['siunt']['pallet_type'][7] = '1.2m/1.2m';
-$lang['siunt']['pallet_type'][9] = 'one-time&nbsp;1.2m/0.8m';
+$lang['siunt']['pallet_type'][9] = 'one-time 1.2m/0.8m';
 
 $lang['siunt']['global_head'] = 'Required information for the delivery of consignments outside the European Union:';
 $lang['siunt']['global_link'] = 'Link to this document.';
