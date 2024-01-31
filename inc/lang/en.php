@@ -4,4 +4,3 @@ $LANG['foo1'] = 'foo bar';
 $LANG['foo2'] = 'foo bar baz';
 $LANG['foo3'] = 'foo bar baz bag';
 $LANG['menu']['uzs'] = 'Ask the driver';
-$LANG['menu']['uzs_new'] = 'New Order';
